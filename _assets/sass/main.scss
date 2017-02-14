@@ -8,3 +8,7 @@
 .outer {
   @include outer-container;
 }
+
+.main-content {
+  padding: ($gutter * .5);
+}
